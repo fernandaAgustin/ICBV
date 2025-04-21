@@ -48,7 +48,7 @@ const MinisterioJovenes = () => {
         <div className={`ministerio-jovenes ${darkMode ? 'dark-mode' : 'light-mode'}`}>
             <header className="hero-jovenes d-flex align-items-center justify-content-center">
                 <video autoPlay muted loop playsInline className="hero-video">
-                    <source src="https://videocdn.cdnpk.net/videos/b121cc82-c48b-5685-b602-0c898be27ea3/horizontal/previews/clear/large.mp4?token=exp=1745186269~hmac=48b48ef743a70a8430c59ce559683e1c0aa04fa934468d4f57b639e71a6f959a" type="video/mp4" />
+                    <source src="https://videocdn.cdnpk.net/videos/b121cc82-c48b-5685-b602-0c898be27ea3/horizontal/previews/clear/large.mp4?token=exp=1745207864~hmac=17c892b07de72efe8d10e9efd3928aa2d9d2726d47eb5453fcec47f2d7657101" type="video/mp4" />
                 </video>
                 <div className="hero-overlay text-center" data-aos="fade-up">
                     <h1 className="display-4 fw-bold">Ministerio de Jóvenes</h1>
