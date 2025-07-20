@@ -52,7 +52,7 @@ const PaginaPrincipal = () => {
             {/* HERO */}
             <header className="hero-section d-flex align-items-center justify-content-center">
                 <video autoPlay loop muted playsInline className="hero-video">
-                    <source src="https://videocdn.cdnpk.net/videos/6872df75-27b9-544a-b02a-fe3b57a645f8/horizontal/previews/clear/large.mp4?token=exp=1745212405~hmac=aa2cb552a64209caa2127fca411ea7306f8e70c091fc1cf3f398a66b0226ba41" type="video/mp4" />
+                    <source src="https://res.cloudinary.com/dobxyacku/video/upload/v1752984103/VIDEO_PRINCIPAL_o7vdhp.mp4" type="video/mp4" />
                     Tu navegador no soporta videos HTML5.
                 </video>
                 <div className="text-center hero-text" data-aos="fade-up">
