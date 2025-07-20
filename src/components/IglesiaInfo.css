@@ -1,0 +1,192 @@
+/* Fondo oscuro suave y tipografía moderna */
+.info-general-page {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+/* Título secciones */
+.section-title {
+    font-weight: 700;
+    color: #90caf9; /* azul claro */
+    border-bottom: 3px solid #90caf9;
+    padding-bottom: 10px;
+    margin-bottom: 2rem;
+}
+
+/* Hero */
+.hero-info {
+    position: relative;
+    height: 70vh;
+    overflow: hidden;
+}
+
+.hero-background-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.25);
+    transition: filter 0.5s ease;
+}
+
+.hero-info:hover .hero-background-img {
+    filter: brightness(0.4);
+}
+
+.overlay-hero {
+    position: absolute;
+    inset: 0;
+}
+
+.text-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #bbdefb; /* azul muy claro */
+    text-shadow: 0 0 10px rgba(0,0,0,0.7);
+    text-align: center;
+}
+
+.text-container h1 {
+    font-size: 3.8rem;
+    font-weight: 900;
+    margin-bottom: 0.5rem;
+    color: #64b5f6;
+}
+
+.text-container p {
+    font-size: 1.3rem;
+    color: #e3f2fd;
+}
+
+/* Cards de reuniones */
+.info-card {
+    background: #1e1e1e;
+    border-radius: 12px;
+    padding: 28px 25px;
+    box-shadow: 0 6px 15px rgba(33, 150, 243, 0.3);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: default;
+}
+
+.info-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(33, 150, 243, 0.6);
+}
+
+.icon-circle {
+    font-size: 2.7rem;
+    color: #42a5f5;
+    margin-bottom: 18px;
+    transition: color 0.3s ease;
+}
+
+.info-card:hover .icon-circle {
+    color: #90caf9;
+}
+
+.info-card h5 {
+    color: #bbdefb;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+/* Fondo oscuro suave y tipografía moderna */
+.info-general-page {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+/* Título secciones */
+.section-title {
+    font-weight: 700;
+    color: #90caf9; /* azul claro */
+    border-bottom: 3px solid #90caf9;
+    padding-bottom: 10px;
+    margin-bottom: 2rem;
+}
+
+/* Hero */
+.hero-info {
+    position: relative;
+    height: 70vh;
+    overflow: hidden;
+}
+
+.hero-background-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.25);
+    transition: filter 0.5s ease;
+}
+
+.hero-info:hover .hero-background-img {
+    filter: brightness(0.4);
+}
+
+.overlay-hero {
+    position: absolute;
+    inset: 0;
+}
+
+.text-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #bbdefb; /* azul muy claro */
+    text-shadow: 0 0 10px rgba(0,0,0,0.7);
+    text-align: center;
+}
+
+.text-container h1 {
+    font-size: 3.8rem;
+    font-weight: 900;
+    margin-bottom: 0.5rem;
+    color: #64b5f6;
+}
+
+.text-container p {
+    font-size: 1.3rem;
+    color: #e3f2fd;
+}
+
+/* Cards de reuniones */
+.info-card {
+    background: #1e1e1e;
+    border-radius: 12px;
+    padding: 28px 25px;
+    box-shadow: 0 6px 15px rgba(33, 150, 243, 0.3);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: default;
+}
+
+.info-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(33, 150, 243, 0.6);
+}
+
+.icon-circle {
+    font-size: 2.7rem;
+    color: #42a5f5;
+    margin-bottom: 18px;
+    transition: color 0.3s ease;
+}
+
+.info-card:hover .icon-circle {
+    color: #90caf9;
+}
+
+.info-card h5 {
+    color: #bbdefb;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+

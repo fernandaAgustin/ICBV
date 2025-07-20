@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap');
+
+.ministerio-ninos-page {
+    background-color: #121212;
+    color: #fefefe;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.hero-ninos {
+    position: relative;
+    height: 100vh;
+    background-image: url('https://i.pinimg.com/1200x/ab/2a/bd/ab2abdaf6b288543fe3ac6d9b6c8edee.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-ninos .overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 3rem;
+    border-radius: 15px;
+    color: #fff;
+    z-index: 1;
+}
+
+
+.hero-ninos h1 {
+    font-size: 3.5rem;
+    color: #fdd835;
+    text-shadow: 2px 2px #000;
+}
+
+.hero-ninos p {
+    font-size: 1.3rem;
+    color: #fff;
+    margin-top: 1rem;
+}
+
+.icon-ninos {
+    color: #fdd835;
+    background: #222;
+    padding: 10px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.icon-ninos:hover {
+    transform: scale(1.1);
+}
+
+h5 {
+    color: #81d4fa;
+    font-weight: 600;
+}
+
+footer.footer-enhanced {
+    background-color: #1e1e1e;
+    color: #bbb;
+    border-top: 2px solid #444;
+}
+
+/* Botón */
+.btn-back {
+    background: transparent;
+    border: 2px solid #81d4fa;
+    color: #81d4fa;
+    border-radius: 25px;
+    padding: 10px 25px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.btn-back:hover {
+    background-color: #81d4fa;
+    color: #000;
+}
+
+/* Cita bíblica */
+.biblical-verse {
+    text-align: center;
+    margin: 4rem auto 2rem;
+    background-color: #222;
+    padding: 2rem;
+    border-left: 6px solid #d0d00d;
+    border-radius: 10px;
+    max-width: 800px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #fff430;
+}
+.biblical-verse strong {
+    color: #fff;
+    display: block;
+    margin-top: 1rem;
+}
